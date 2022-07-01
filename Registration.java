@@ -12,6 +12,7 @@ public class Registration {
 		// TODO Auto-generated method stub
 		String host="localhost";
 		String port="3306";
+            System.out.println("Gopika");
        Connection con=DriverManager.getConnection("Jdbc:mysql:"+host+":"+port+"/Hospital", "root", "root");
       Statement s=con. createStatement();
       ResultSet rs=s.executeQuery("insert into Registration values('Gopika','Chithra','Gopakumar','2.5','Female'),\r\n"
